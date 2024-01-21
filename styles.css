@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+h1 , h2{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #F38321;
+}
+
+h2{
+   color: #F38321;
+  font-size: 50px;
+}
+h3{
+ 
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+a , a:link {
+  text-decoration: none;
+  color: #F38321;
+}
+a:hover {
+  color: #146B82;
+}
+
+table {
+
+  width: 100%;
+}
+*{
+  font-family: 'Oxygen', sans-serif !important;
+  line-height: 150%;
+  font-weight: 300;
+  font-size: 16px;
+}
+#navele .navbar-brand{
+  font-family: 'Oxygen', sans-serif !important;
+}
+  .backgroundNav{
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(252,252,252,0.1); 
+    box-shadow: 3px 4px 69px -33px rgba(0,0,0,0.5); 
+    backdrop-filter: blur(10px);
+    padding: 20px;
+
+  }
+  .nav-link:hover, .active{
+    color: #146B82 !important;
+  }
+  .boxes{
+    background-color: #fff;
+     border: 2px solid rgba(252,252,252,0.1); 
+    box-shadow: 3px 4px 69px -33px rgba(0,0,0,0.5); 
+    backdrop-filter: blur(10px);
+    padding: 7vh; text-align: center; margin: 0 2vh 3vh 0vh; border-radius: 10px;
+  }
+.sect3 img , .sect2 img{
+ width: 5em;
+ margin:  10px;
+}
+  .bg1{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2{
+    background-image: url("images/background1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .bg3{
+    background-image: url("images/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .bg4{
+    background-image: url("images/background2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn {
+  background-color: #146B82;
+ 
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F38321;
+ 
+  text-decoration: none;
+  color: white;
+}
+.mainkv{
+  position: relative;
+  animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  0%   {top: 0px;}
+  50%  {top: 50px;}
+  
+  100% {top:0px;}
+}
+
+form{
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: -6px 23px 35px -6px rgba(0,0,0,0.42);
+-webkit-box-shadow: -6px 23px 35px -6px rgba(0,0,0,0.42);
+-moz-box-shadow: -6px 23px 35px -6px rgba(0,0,0,0.42);
+
+}
+input[type=text], input[type=email], input[type=tel], textarea, select{
+  width: 100%;
+  min-height: 40px;
+  border: transparent;
+  padding-left: 5px;
+  transition: 0.5s;
+}
+
+input::placeholder{
+  padding-left: 5px;
+}
+
+textarea::placeholder{
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+label{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+input[type=submit]{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background: #F38321;
+  color: WHITE;
+  border: transparent;
+  transition: 0.5s;
+}
+input[type=submit]:hover{
+  
+  background: #146B82;
+  
+}
+
+
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus{
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #555 !important;
+  
+}
